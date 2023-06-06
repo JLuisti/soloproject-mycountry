@@ -1,0 +1,138 @@
+
+body {
+    background-color: #010311;
+    color:antiquewhite;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-weight:600;
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: lighter;
+
+}
+
+h3 {
+    font-weight:500;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 425px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/hkbro.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-shadow: 0px 0px 3px #010311;
+
+}
+
+.intro-text {
+    width: 100%;
+    height:140px;
+    margin: 30px auto;
+    padding-top: 20px;
+    border-bottom: 1px solid #F4BF2E;
+}
+
+.activities {
+    width: 80%;
+    height: 375px;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.contaninter-act {
+    height: 700px;
+    width: 400px;        
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0px;
+}
+
+.img {
+    margin:15px 0px 0px 0px;
+    height: 200px;
+    width: 200px;
+    border-radius: 3%;
+    transition-duration: 0.5s;
+}
+
+.img:hover {
+    height: 300px;
+    width: 300px;
+}
+
+.earth {
+    padding: 20px;
+    }
+
+.card {
+    width: 450px;
+    height: 300px;
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #F4BF2E;
+    border-radius: 5px;
+}
+
+.card-text {
+    width: 250px;
+    text-align: center;
+    
+}
+
+.aino {
+    height: 240px;
+    width: auto;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.footer {
+    font-weight: lighter;
+    height: 40px;
+    padding: 5px;
+}
+
+a {
+    color: antiquewhite;
+    font-weight:500;
+    text-decoration: none;
+}
